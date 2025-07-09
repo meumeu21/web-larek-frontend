@@ -12,7 +12,7 @@ export class ApiModel extends Api {
     cdn: string;
     items: IProductItem[];
 
-    constructor(cdn: string, baseURL: string, options: RequestInit) {
+    constructor(cdn: string, baseURL: string, options?: RequestInit) {
         super(baseURL, options);
         this.cdn = cdn;
     }

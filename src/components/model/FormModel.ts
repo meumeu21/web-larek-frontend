@@ -102,7 +102,7 @@ export class FormModel implements IFormModel {
         return Object.keys(errors).length === 0;
     }
 
-    getOrderLot(): object {
+    getOrderLot() {
         return {
             payment: this.payment,
             email: this.email,
